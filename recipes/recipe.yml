@@ -21,6 +21,7 @@ modules:
         - crun-krun
   - from-file: sway.yml
   - from-file: thunderbolt.yml
+  - from-file: canon-printer.yml
   - type: default-flatpaks
     configurations:
       - scope: user
