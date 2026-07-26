@@ -2,7 +2,7 @@
 modules:
   - type: script
     snippets:
-      - "curl https://gdlp01.c-wss.com/gds/3/0100012533/01/cnijfilter2-6.81-1-rpm.tar.gz | tar -O xz cnijfilter2-6.81-1-rpm/packages/cnijfilter2-6.81-1.x86_64.rpm > /tmp/cnijfilter2.rpm"
+      - "curl https://gdlp01.c-wss.com/gds/3/0100012533/01/cnijfilter2-6.81-1-rpm.tar.gz | tar xzO cnijfilter2-6.81-1-rpm/packages/cnijfilter2-6.81-1.x86_64.rpm > /tmp/cnijfilter2.rpm"
   - type: dnf
     install:
       packages:
