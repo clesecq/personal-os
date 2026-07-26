@@ -9,14 +9,13 @@ modules:
     files:
       - source: system
         destination: /
+  # add terra repo, remove when secureblue/secureblue/issues/2210 is closed
+  - type: script
+    snippets:
+      - "dnf install --assumeyes --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release"
   - type: dnf
-    repos:
-      copr:
-        - name: atim/starship
-          chroot: fedora-44-x86_64
     install:
       packages:
-        - micro
         - starship
         - crun-krun
   - from-file: sway.yml
