@@ -12,3 +12,7 @@ modules:
   - type: script
     snippets:
       - "sed -i '/^auth       include     postlogin/i\auth       optional    pam_systemd_loadkey.so keyname=fido2-pin\nauth       optional    pam_gnome_keyring.so' /etc/pam.d/sddm-autologin"
+  - type: dnf
+    install:
+      packages:
+        - DankMaterialShell
