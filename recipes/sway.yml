@@ -20,3 +20,4 @@ modules:
     user:
       enabled:
         - dms.service
+        - kanshi.service
