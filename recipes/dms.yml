@@ -1,0 +1,41 @@
+modules:
+  - type: dnf
+    repos:
+      copr:
+        - name: avengemedia/dms
+          chroot: fedora-44-x86_64
+    install:
+      install-weak-deps: false
+      packages:
+        - dms
+        - dms-greeter
+        - niri
+    remove:
+      packages:
+        - NetworkManager-l2tp-gnome
+        - NetworkManager-libreswan-gnome
+        - NetworkManager-openconnect-gnome
+        - NetworkManager-openvpn-gnome
+        - NetworkManager-sstp-gnome
+        - NetworkManager-vpnc-gnome
+        - blueman
+        - dunst
+        - grim
+        - kanshi
+        - network-manager-applet
+        - pulseaudio-utils
+        - sddm
+        - sddm-wayland-sway
+        - sway
+        - sway-config-fedora
+        - swaybg
+        - swayidle
+        - swaylock
+        - tuned-ppd
+        - waybar
+        - wlr-randr
+        - xarchiver
+  - type: systemd
+    system:
+      enabled:
+        - greetd.service
