@@ -5,11 +5,9 @@ modules:
         - name: avengemedia/dms
           chroot: fedora-44-x86_64
     install:
-      install-weak-deps: false
       packages:
         - dms
         - dms-greeter
-        - niri
     remove:
       packages:
         - NetworkManager-l2tp-gnome
@@ -39,3 +37,8 @@ modules:
     system:
       enabled:
         - greetd.service
+  - type: dnf
+    install:
+      packages:
+        - niri
+      install-weak-deps: false
