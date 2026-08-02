@@ -18,6 +18,8 @@ modules:
       packages:
         - starship
         - crun-krun
+        - xdg-terminal-exec
+        - foot
   - from-file: dms.yml
   - from-file: thunderbolt.yml
   - from-file: canon-printer.yml
