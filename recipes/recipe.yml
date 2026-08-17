@@ -19,7 +19,6 @@ modules:
         - starship
         - crun-krun
         - guestfs-tools
-  - from-file: thunderbolt.yml
   - from-file: canon-printer.yml
   - type: default-flatpaks
     configurations:
