@@ -20,6 +20,7 @@ modules:
         - crun-krun
         - guestfs-tools
         - ocrmypdf
+        - rclone
   - from-file: canon-printer.yml
   - type: default-flatpaks
     configurations:
