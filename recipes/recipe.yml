@@ -22,6 +22,7 @@ modules:
         - ocrmypdf
         - rclone
         - nmap
+        - fdupes
   - from-file: canon-printer.yml
   - type: default-flatpaks
     configurations:
