@@ -21,6 +21,7 @@ modules:
         - guestfs-tools
         - ocrmypdf
         - rclone
+        - nmap
   - from-file: canon-printer.yml
   - type: default-flatpaks
     configurations:
