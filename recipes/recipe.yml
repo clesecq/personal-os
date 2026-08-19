@@ -19,6 +19,7 @@ modules:
         - starship
         - crun-krun
         - guestfs-tools
+        - ocrmypdf
   - from-file: canon-printer.yml
   - type: default-flatpaks
     configurations:
