@@ -29,4 +29,5 @@ modules:
       - scope: user
         install:
           - eu.betterbird.Betterbird
+          - com.bitwarden.desktop
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
