@@ -23,6 +23,7 @@ modules:
         - rclone
         - nmap
         - fdupes
+        - solaar
   - from-file: canon-printer.yml
   - type: default-flatpaks
     configurations:
