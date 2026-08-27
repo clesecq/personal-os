@@ -24,6 +24,7 @@ modules:
         - nmap
         - fdupes
         - solaar
+        - zed
   - from-file: canon-printer.yml
   - type: default-flatpaks
     configurations:
