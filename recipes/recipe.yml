@@ -36,4 +36,5 @@ modules:
           - org.gnome.Papers
           - org.gnome.TextEditor
           - org.gnome.SimpleScan
+          - com.github.marhkb.Pods
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
