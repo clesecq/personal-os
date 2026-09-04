@@ -37,4 +37,5 @@ modules:
           - org.gnome.TextEditor
           - org.gnome.SimpleScan
           - com.github.marhkb.Pods
+          - org.gnome.gitlab.cheywood.Buffer
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
