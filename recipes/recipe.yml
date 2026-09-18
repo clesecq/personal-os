@@ -25,6 +25,7 @@ modules:
         - fdupes
         - solaar
         - zed
+        - fish
   - from-file: canon-printer.yml
   - type: default-flatpaks
     configurations:
