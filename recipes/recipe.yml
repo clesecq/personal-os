@@ -26,6 +26,7 @@ modules:
         - solaar
         - zed
         - fish
+        - zellij
   - from-file: canon-printer.yml
   - type: default-flatpaks
     configurations:
