@@ -27,6 +27,7 @@ modules:
         - zed
         - fish
         - zellij
+        - https://github.com/clesecq/wifiman-desktop-rpm/releases/download/wifiman-desktop-1.3.0-1/wifiman-desktop-1.3.0-1.x86_64.rpm
   - from-file: canon-printer.yml
   - type: default-flatpaks
     configurations:
