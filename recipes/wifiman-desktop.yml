@@ -1,0 +1,13 @@
+# module for install wifiman-desktop
+modules:
+  - type: dnf
+    repos:
+      copr:
+        enable: coles/wifiman-desktop
+    install:
+      packages:
+        - wifiman-desktop
+  - type: systemd
+    system:
+      enabled:
+        - wifiman-desktop.service
