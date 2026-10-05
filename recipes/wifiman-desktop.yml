@@ -4,7 +4,8 @@ modules:
     repos:
       copr:
         enable:
-          - coles/wifiman-desktop
+          - name: coles/wifiman-desktop
+            chroot: fedora-44-x86_64
     install:
       packages:
         - wifiman-desktop
