@@ -3,7 +3,8 @@ modules:
   - type: dnf
     repos:
       copr:
-        enable: coles/wifiman-desktop
+        enable:
+          - coles/wifiman-desktop
     install:
       packages:
         - wifiman-desktop

@@ -28,6 +28,7 @@ modules:
         - fish
         - zellij
   - from-file: canon-printer.yml
+  - from-file: wifiman-desktop.yml
   - type: default-flatpaks
     configurations:
       - scope: user
